@@ -1,0 +1,22 @@
+#cloudfail //cloudflare byapass korar jnno 
+    $ apt install tor 
+    $ python3 cloudfail.py --target example.com -- tor // nerver use https
+#waf-waf  // waf bypass korar jnno
+
+#namp
+    $nmap -sV -sC ip | tree -a nmap
+# ftp ip // for login
+    $ ftp ip  // after login give "anonymous"
+# hydra -h 
+    $hydra -l msfadmin -P passwrord_pat_List ssh://192.168.0.0.1  // for ssh brute force
+    $hydra -l msfadmin -P passwrord_pat_List telnet://192.168.0.0.1
+    
+# cewl https://example.com | tree -a savapass.txt // cewl web base pass list create kore.
+
+# patator   //SSH brute force 
+    $patator ssh_login host=192.168.0.0.1 user=here_usrname password=FILE0 0=passwdpath.txt -x ignore:mesg='Authentication failed'
+  #patator er kono service করার জন্য আমরা patator লিখে সার্ভিস এর নাম লিখে exmape a তার ব্যবহার দেখাবে। যেমন - 
+    $patator ftp_login 
+
+
+    

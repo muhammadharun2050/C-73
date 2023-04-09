@@ -1,0 +1,4 @@
+$ always try private bug bounty . 
+$ use bug bounty dork
+$ if you need resource , write this line 
+        " cloud/bugbounty/ resource checklist github"

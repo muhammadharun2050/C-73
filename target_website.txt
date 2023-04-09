@@ -1,0 +1,9 @@
+# namp ip | tree -a namp
+    ->if find ftp server use below this command 
+    $ hydra -l here_use_Username -P here-use_password_list ssh://192.169.0.1 //for ssh brute force
+    $ssh usename@192.168.0.1   // for connect ssh
+    $ dirsearch --url ip/website  //এখানে আমরা কোনো directory পাইলে ,সেটাকে আমরা পরের
+        directory-তে দিয়ে scan করবো। যেমন- $ dirsearch -url ip/img । 
+
+# wpscan --url http://harunhelping.com/wordpress  // যদি দেখায় wordpress seem not active , তাহলে  directoryতে wordpress লিখলে কাজ করবে।
+    $wpscan --url http://harunhelping.com/wordpress ----random-user-agent // user_agent for waf bypass.
